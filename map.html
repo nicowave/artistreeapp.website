@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+		<!-- begin head here -->
+		<head>
+			<meta charset="utf-8" />
+			<title>Artistree | Local art, music and events</title>
+			<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+			<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic' rel='stylesheet' type='text/css' />
+			<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+			<link rel="stylesheet" href="css/main.css" />	
+			
+			
+		
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+
+		</head>
+
+
+
+		
+
+		<body>
+			<!-- begin header here -->
+		<header>
+			<a href="map.html" id="logo">
+				<h1>Artistree</h1>
+				<h2>art galleries | music retailers | events</h2>
+			</a>
+			<nav>
+					<ul>
+						<li><a href="index.html" class="selected">Portfolio</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="galleries.html">Galleries</a></li>
+						<li><a href="map.html">Map</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+		</header>
+
+			<div id='map'></div>
+
+					<script>
+
+						L.mapbox.accessToken = 'pk.eyJ1Ijoibmljb3dhdmVtb3VudGFpbiIsImEiOiI5NDVkNTY4NmY0NjJjNjMzNTMwNjhlOTE4MjBhZDNmYyJ9.zt8FtukBTjGlMHh59coSjA';
+						
+						var map = L.mapbox.map('map', 'mapbox.dark').setView([33.5430, -117.7873], 14);
+
+						var featureLayer = L.mapbox.featureLayer().addTo(map);
+
+						featureLayer.setGeoJSON( { 
+						"type": "FeatureCollection",
+						"features": [ {	
+													"type": "Feature",										
+													"geometry": { "type": "Point",								       	  		
+																				"coordinates": [-117.781458, 33.540296] },
+													"properties": 	{
+																					"id": 1,
+																					"address": "570 South Coast Highway Laguna Beach, CA 92651",
+																					"latitude": 33.540296,
+																					"longitude": -117.781458,
+																					"name": "Townley Gallery",
+																					"phone": 9497151860
+																					}
+													},
+													{	
+													"type": "Feature",
+													"geometry": { "type": "Point",
+																				"coordinates": [-117.781532, 33.540328] },
+													"properties":	{
+																				"id": 2,
+																				"address": "550 South Coast Hwy. Suite 3 Laguna Beach, CA 92651",
+																				"latitude": 33.540328,
+																				"longitude":-117.781532,
+																				"name": "Hugo Rivera Gallery",
+																				"phone": 9492127875
+																				}
+													}, 
+													{
+													"type": "Feature",
+													"geometry": {	"type": "Point",
+																				"coordinates":[-117.781676, 33.540636] },
+													"properties": { "id": 3,
+																					"address": "540 South Coast Highway, Suite 106 Laguna Beach, CA 92651",
+																					"latitude": 33.540636,
+																					"longitude": -117.781676,
+																					"name": "AVRAN Art + Design Gallery",
+																					"phone": 9494940900 }
+													} ] 
+											});
+
+						featureLayer.getGeoJSON();
+
+					</script>
+
+		</body>
+
+
+		<footer>
+				<a href="https://twitter.com/geoidlife">
+					<img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+					<a href="https://www.facebook.com/nick.roldos">
+					<img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+				<p>&copy; 2015	Nicolas Roldos.</p>
+			</footer>
+
+</html>
