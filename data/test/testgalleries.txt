@@ -1,0 +1,172 @@
+testgalleries.json
+
+
+"original address",latitude,longitude,status code
+
+		"{
+			"fullAddressString": "570 South Coast Highway Laguna Beach, CA 92651",
+				",33.540296,-117.781458,200"
+			"galleryName": "Townley Gallery",
+				",,,602"
+			"phone":"(949) 715-1860"
+				",33.215486,-92.406478,200"
+
+		},"
+		,,,602
+
+
+
+		"{
+			"fullAddressString": "550 South Coast Hwy. Suite 3 Laguna Beach, CA 92651",
+				",33.540328,-117.781532,200
+			""galleryName": "Hugo Rivera Gallery",
+				",,,602"
+			"phone":"(949) 212-7875"
+				",33.215486,-92.406478,200"
+
+		},"
+		,,,602
+
+
+		"{
+			"fullAddressString": "540 South Coast Highway, Suite 106 Laguna Beach, CA 92651",
+				",33.540636,-117.781676,200"
+			"galleryName": "AVRAN Art + Design Gallery",
+				",,,602
+			""phone":"(949) 494-0900"
+				",33.215486,-92.406478,200"
+		},"
+		,,,602
+
+
+
+		"{
+			"fullAddressString":"540 S Coast Hwy # 110 Laguna Beach, CA 92651",
+			",33.542653,-117.785136,200"
+			"galleryName": "McKibben Studios",
+			",,,602
+			""phone":"949-903-2537"
+			",33.215486,-92.406478,200
+		"},
+		",,,602
+
+		"{
+			"fullAddressString":"540 S Coast Hwy #112 Laguna Beach, CA 92651",
+			",33.542634,-117.785098,200"
+			"galleryName":"Pacific Edge Gallery",
+			",,,602"
+			"phone":"(949) 494-0491"
+			",33.215486,-92.406478,200
+		"},
+		",,,602
+
+		"{
+			"fullAddressString":"577 S. Coast Highway A-1 Laguna Beach, CA 92651",
+				",33.542248,-117.78311,200"
+			"galleryName":"Las Laguna Gallery",
+				",,,602"
+			"phone":"(949) 667-1803"
+				",33.215486,-92.406478,200"
+		},
+		",,,602
+
+	"{"fullAddressString":"502 South Coast Highway Laguna Beach, CA 92651",",33.540878,-117.782018,200
+	""galleryName":"Village Gallery",",,,602
+	""phone":"(949) 494-3553"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"611 South Coast Hwy Laguna Beach, CA 92651",",33.539329,-117.781379,200
+	""galleryName":"LGOCA",",,,602
+	""phone":"(949) 715-9604"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"509 S. Coast Highway Laguna Beach, CA 92651",",33.540565,-117.782593,200
+	""galleryName":"Wyland Gallery",",,,602
+	""phone":"(949) 376-8000"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"425 South Coast Highway Laguna Beach, CA 92651",",33.541249,-117.782856,200
+	""galleryName":"Exclusive Collections",",,,602
+	""phone":"nil"",,,602
+	"},",,,602
+
+	"{"fullAddressString":"417 South Coast Hwy Laguna Beach, CA 92651",",33.541299,-117.782899,200
+	""galleryName":"Miranda Galleries",",,,602
+	""phone":"(949) 497-4491"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"384 A North Coast Highway Laguna Beach, CA 92651",",33.544713,-117.789795,200
+	""galleryName":"Sandstone Gallery",",,,602
+	""phone":"(949) 497-6775"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"384 B North Coast Highway Laguna Beach, CA 92651",",33.544713,-117.789795,200
+	""galleryName":"Studio 7 Gallery North",",,,602
+	""phone":"(949) 497-1080"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"380 S. Coast Highway Laguna Beach, CA 92651",",33.541775,-117.782593,200
+	""galleryName":"Ruth Mayer Fine Art Gallery",",,,602
+	""phone":"(949) 494-8185"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"374 North Coast Highway Laguna Beach, CA 92651",",33.544366,-117.789763,200
+	""galleryName":"Quorum Art Gallery",",,,602
+	""phone":"(949) 494-4422"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"372 North Coast Highway Laguna Beach, CA 92651",",33.544583,-117.789612,200
+	""galleryName":"LU MARTIN GALLERIES",",,,602
+	""phone":"(949) 494-8074"",33.215486,-92.406478,200
+	"},",,,602
+
+	"{"fullAddressString":"354 NORTH COAST HWY Laguna Beach, CA 92651",",33.54439,-117.789383,200
+	""galleryName":"The George Gallery",",,,602
+	""phone":"(949) 715-4377"",33.215486,-92.406478,200
+	"},",,,602
+
+"{"fullAddressString":"346 NORTH COAST HIGHWAY Laguna Beach, CA 92651",",33.544445,-117.789066,200
+""galleryName":"JOSEPH WISE GALLERY",",,,602
+""phone":"(949) 376-7902",",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"357 South Coast Highway Laguna Beach, CA 92651",",33.541652,-117.78326,200
+""galleryName":"Kush Fine Art Gallery",",,,602
+""phone":"(949) 376-8017",",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"330 North Coast Highway Laguna Beach, CA 92651",",33.544276,-117.788963,200
+""galleryName":"Sue Greenwood Fine Art",",,,602
+""phone":"(949) 494-0669",",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"326 North Coast Highway Laguna Beach, CA 92651",",33.544223,-117.788839,200
+""galleryName":"JoAnne Artman Gallery",",,,602
+""phone":"(949) 510-5481",",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"225 Forest Ave. Laguna Beach, CA 92651",",33.54229,-117.782863,200
+""galleryName":"Laguna College of Art & Design Gallery",",,,602
+""phone":"(949) 376-6000",",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"225 Forest Ave. Laguna Beach, CA 92651",",33.54229,-117.782863,200
+""galleryName":"LCAD of Forest",",,,602
+""phone":"(949) 376-6000",",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"Laguna Beach Ca, 92651",",,,404
+""galleryName":"First Thursdays Art Walk Laguna Beach",",,,404
+""phone":"nil",",,,404
+"},",,,602
+
+"{"fullAddressString":"210 A Forest Ave Laguna Beach, CA 92651",",33.542323,-117.783193,200
+""galleryName":"Fingerhut Gallery",",,,602
+""phone":"(949) 376-6410"",33.215486,-92.406478,200
+"},",,,602
+
+"{"fullAddressString":"606 Laguna Canyon Road Laguna Beach, CA 92652",",33.547373,-117.782515,200
+""galleryName":"Laguna Playhouse",",,,602
+""phone":"(949) 497-2787"}",33.215486,-92.406478,200
+
+
