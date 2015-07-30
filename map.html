@@ -16,11 +16,8 @@
 
 		</head>
 
-
-
-		
-
 		<body>
+
 			<!-- begin header here -->
 		<header>
 			<a href="map.html" id="logo">
@@ -42,8 +39,10 @@
 
 					<script>
 
-						L.mapbox.accessToken = 'pk.eyJ1Ijoibmljb3dhdmVtb3VudGFpbiIsImEiOiI5NDVkNTY4NmY0NjJjNjMzNTMwNjhlOTE4MjBhZDNmYyJ9.zt8FtukBTjGlMHh59coSjA';
+						L.mapbox.accessToken = 
+						'pk.eyJ1Ijoibmljb3dhdmVtb3VudGFpbiIsImEiOiI5NDVkNTY4NmY0NjJjNjMzNTMwNjhlOTE4MjBhZDNmYyJ9.zt8FtukBTjGlMHh59coSjA';
 						
+
 						var map = L.mapbox.map('map', 'mapbox.dark').setView([33.5430, -117.7873], 14);
 
 						var featureLayer = L.mapbox.featureLayer().addTo(map);
@@ -55,41 +54,46 @@
 													"geometry": { "type": "Point",								       	  		
 																				"coordinates": [-117.781458, 33.540296] },
 													"properties": 	{
-																					"id": 1,
-																					"address": "570 South Coast Highway Laguna Beach, CA 92651",
-																					"latitude": 33.540296,
-																					"longitude": -117.781458,
-																					"name": "Townley Gallery",
-																					"phone": 9497151860
-																					}
+																	"id": 1,
+																	"address": "570 South Coast Highway Laguna Beach, CA 92651",
+																	"latitude": 33.540296,
+																	"longitude": -117.781458,
+																	"name": "Townley Gallery",
+																	"phone": 9497151860
+																	}
 													},
+
 													{	
 													"type": "Feature",
 													"geometry": { "type": "Point",
 																				"coordinates": [-117.781532, 33.540328] },
 													"properties":	{
-																				"id": 2,
-																				"address": "550 South Coast Hwy. Suite 3 Laguna Beach, CA 92651",
-																				"latitude": 33.540328,
-																				"longitude":-117.781532,
-																				"name": "Hugo Rivera Gallery",
-																				"phone": 9492127875
-																				}
-													}, 
+																	"id": 2,
+																	"address": "550 South Coast Hwy. Suite 3 Laguna Beach, CA 92651",
+																	"latitude": 33.540328,
+																	"longitude":-117.781532,
+																	"name": "Hugo Rivera Gallery",
+																	"phone": 9492127875
+																	}
+													},
+
 													{
 													"type": "Feature",
 													"geometry": {	"type": "Point",
 																				"coordinates":[-117.781676, 33.540636] },
-													"properties": { "id": 3,
-																					"address": "540 South Coast Highway, Suite 106 Laguna Beach, CA 92651",
-																					"latitude": 33.540636,
-																					"longitude": -117.781676,
-																					"name": "AVRAN Art + Design Gallery",
-																					"phone": 9494940900 }
-													} ] 
-											});
+													"properties": { 
+																				"id": 3,
+																				"address": "540 South Coast Highway, Suite 106 Laguna Beach, CA 92651",
+																				"latitude": 33.540636,
+																				"longitude": -117.781676,
+																				"name": "AVRAN Art + Design Gallery",
+																				"phone": 9494940900
+																				}
+											} ] 
+						});
 
-						featureLayer.getGeoJSON();
+
+						//featureLayer.getGeoJSON();
 
 					</script>
 
@@ -97,11 +101,11 @@
 
 
 		<footer>
-				<a href="https://twitter.com/geoidlife">
-					<img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-					<a href="https://www.facebook.com/nick.roldos">
-					<img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-				<p>&copy; 2015	Nicolas Roldos.</p>
-			</footer>
+					<a href="https://twitter.com/geoidlife">
+						<img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+						<a href="https://www.facebook.com/nick.roldos">
+						<img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+					<p>&copy; 2015	Nicolas Roldos.</p>
+		</footer>
 
 </html>
