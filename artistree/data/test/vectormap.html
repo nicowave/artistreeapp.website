@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+		<!-- begin head here -->
+		<head>
+			<title>Artistree | Local art, music and events</title>
+			<meta charset="utf-8" />
+
+			<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+			<link rel="stylesheet" href="css/main.css" />		
+			<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		
+			 
+			<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.8.1/mapbox-gl.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.8.1/mapbox-gl.css' rel='stylesheet' />
+			
+		</head>
+
+		<body>
+
+			<div id='map'></div>
+				<script>
+				
+						L.mapbox.accessToken = 'pk.eyJ1Ijoibmljb3dhdmVtb3VudGFpbiIsImEiOiI5NDVkNTY4NmY0NjJjNjMzNTMwNjhlOTE4MjBhZDNmYyJ9.zt8FtukBTjGlMHh59coSjA';
+						
+						var map = L.mapbox.map('map', 'mapbox.dark').setView([33.5430, -117.7873], 14);
+				</script>
+
+
+
+		</body>
+
+</html>
