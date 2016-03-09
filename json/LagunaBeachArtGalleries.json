@@ -1,6 +1,6 @@
-//LagunaBeachArtGalleriesJSON
+//LagunaBeachArtGalleries.json
 //Nicolas Roldos
-//June 16th 2015
+//created: June 16th 2015
 
 
 
@@ -9,7 +9,9 @@
 
 
 
-		{"fullAddressString": "570 South Coast Highway Laguna Beach, CA 92651",
+	
+
+	{"fullAddressString": "570 South Coast Highway Laguna Beach, CA 92651",
 	"galleryName": "Townley Gallery", 
 	"phone":"(949) 715-1860"
 	},
@@ -111,10 +113,8 @@
 	},
 		{"fullAddressString":"606 Laguna Canyon Road Laguna Beach, CA 92652",
 	"galleryName":"Laguna Playhouse",
-	"phone":"(949) 497-2787"}	
-
- 
-]};
+	"phone":"(949) 497-2787"}		]
+};
 
 
 

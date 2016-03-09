@@ -1,0 +1,346 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name",
+				 "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+			 },
+"features":[
+		{
+		"type": "Feature",
+		"geometry":	{ "type": "Point",
+									"coordinates": [-117.781458, 33.540296]
+								},
+						 
+		"properties": { "id": 1,
+										"fullAddressString": "570 South Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.540296,
+										"longitude": -117.781458,
+										"name": "Townley Gallery",
+										"phone": 9497151860
+									}
+		},
+		{	
+		"type": "Feature",
+		"geometry":	{ "type": "Point",
+									"coordinates": [-117.781532, 33.540328]
+								},
+		"properties": {	"id": 2,
+										"fullAddressString": "550 South Coast Hwy. Suite 3 Laguna Beach, CA 92651",
+										"latitude": 33.540328,
+										"longitude": -117.781532,
+										"name": "Hugo Rivera Gallery",
+										"phone": 9492127875
+									}
+	  },
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.781676, 33.540636]
+									},
+						 
+		"properties": { "id": 3,
+										"fullAddressString": "540 South Coast Highway, Suite 106 Laguna Beach, CA 92651",
+										"latitude": 33.540636,
+										"longitude": -117.781676,
+										"name": "AVRAN Art + Design Gallery",
+										"phone": 9494940900
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.785136, 33.542653]
+								},
+						 
+		"properties": { "id":	4,
+										"fullAddressString":"540 S Coast Hwy # 110 Laguna Beach, CA 92651",
+										"latitude": 33.542653,
+										"longitude": -117.785136,
+										"galleryName": "McKibben Studios",
+										"phone": 9499032537
+									}
+		}, 
+		{
+		"type": "Feature",
+		"geometry": 	{	"type": "Point",
+										"coordinates": [-117.785098, 33.542634]
+									},
+		"properties": {	"id": 5,
+										"fullAddressString": "540 S Coast Hwy #112 Laguna Beach, CA 92651",
+										"latitude": 33.542634,
+										"longitude": -117.785098,
+										"name":"Pacific Edge Gallery",
+										"phone": 9494940491
+										}
+		},
+		{	
+		"type": "Feature",
+		"geometry":   {	"type": "Point",
+										"coordinates": [-117.78311, 33.542248]
+									},
+						 
+		"properties": { "id": 6,
+										"fullAddressString": "577 S. Coast Highway A-1 Laguna Beach, CA 92651",
+										"latitude": 33.542248,
+										"longitude": -117.78311,
+										"name":"Las Laguna Gallery",
+										"phone": 9496671803
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": 	{ "type": "Point",
+										"coordinates": [ -117.782018, 33.540878]	
+									},
+						 
+		"properties": {	"id": 7,
+										"fullAddressString": "502 South Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.540878,
+										"longitude": -117.782018,
+										"name": "Village Gallery",
+										"phone": 9494943553
+									}
+			},
+			{
+			"type": "Feature",
+		  "geometry": { "type": "Point",
+										"coordinates": [ -117.781379, 33.539329]
+									},
+			"properties": {		"id": 8,
+												"fullAddressString": "611 South Coast Hwy Laguna Beach, CA 92651",
+												"latitude": 33.539329,
+												"longitude": -117.781379,
+												"galleryName": "LGOCA",
+												"phone": 9497159604
+										}
+		},
+		{
+		"type": "Feature",
+		"geometry": { "type": "Point",
+									"coordinates": [-117.782593, 33.540565]
+								},
+		"properties":	{	"id":	9,
+										"fullAddressString": "509 S. Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.540565,
+										"longitude": -117.782593,
+										"galleryName": "Wyland Gallery",
+										"phone": 9493768000
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry":	{ "type" : "Point",
+									"coordinates": [-117.782856, 33.541249]
+								},
+						 
+		"properties":	{	"id": 10,
+										"fullAddressString": "425 South Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.541249,
+										"longitude": -117.782856,
+										"galleryName": "Exclusive Collections",
+										"phone": "nil"
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": { "type": "Point",
+									"coordinates" : [-117.782899, 33.541299]
+								},
+						 
+		"properties": { "id": 11,
+										"fullAddressString":"417 South Coast Hwy Laguna Beach, CA 92651",
+										"latitude":  33.541299,
+										"longitude": -117.782899,
+										"galleryName":"Miranda Galleries",
+										"phone": 9494974491
+									}
+		},
+		{
+		 "type": "Feature",
+		 "geometry": {  "type": "Point",
+										"coordinates" : [-117.789795, 33.544713]
+								 },
+						 
+	   "properties":{ "id": 12,
+										"fullAddressString": "384 A North Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.544713,
+										"longitude": -117.789795,
+										"galleryName":"Sandstone Gallery",
+										"phone": 9494976775
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": { "type":"Point",
+									"coordinates": [-117.789795, 33.544713]
+								},
+						 
+		"properties": { "id": 13,
+										"fullAddressString": "384 B North Coast Highway Laguna Beach, CA 92651",
+										"latitude" :33.544713,
+										"latitude": -117.789795,
+										"galleryName":"Studio 7 Gallery North",
+										"phone": 9494971080
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": { "type": "Point",
+									"coordinates": [-117.782593, 33.541775]
+								},
+		"properties": {	"id": 14,
+										"fullAddressString": "380 S. Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.541775,
+										"longitude": -117.782593,
+										"galleryName":"Ruth Mayer Fine Art Gallery",
+										"phone":9494948185
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.789763, 33.544366]
+								},
+		"properties": { "id": 15,
+										"fullAddressString": "374 North Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.544366,
+										"longitude":-117.789763,
+										"galleryName": "Quorum Art Gallery",
+										"phone": 9494944422
+									}
+		},
+		{
+	  "type": "Feature",
+	  "geometry": {	"type": "Point",
+									"coordinates": [-117.789612, 33.544583]
+								},
+	  "properties": {	"id": 16,
+										"fullAddressString": "372 North Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.544583,
+										"longitude": -117.789612,
+										"galleryName": "LU MARTIN GALLERIES",
+										"phone": 9494948074
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.789383, 33.54439]
+								},
+		"properties": {	"id": 17,
+										"fullAddressString": "354 NORTH COAST HWY Laguna Beach, CA 92651",
+										"latitude":33.54439,
+										"longitude": -117.789383,
+										"galleryName":"The George Gallery",
+										"phone":9497154377
+									}
+		},
+		{
+	  "type": "Feature",
+	  "geometry": {	"type": "Point",
+									"coordinates": [-117.789066, 33.544445]
+								},
+		"properties": {	"id": 18,
+										"fullAddressString": "346 NORTH COAST HIGHWAY Laguna Beach, CA 92651",
+										"latitude": 33.544445,
+										"longitude": -117.789066,
+										"galleryName":"JOSEPH WISE GALLERY",
+										"phone": 9493767902
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": { "type": "Point",
+									"coordinates": [-117.78326, 33.541652]
+								},
+		"properties": { "id": 19,
+										"fullAddressString": "357 South Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.541652, 
+										"longitude": -117.78326,
+										"galleryName":"Kush Fine Art Gallery",
+										"phone": 9493768017
+									}
+		},
+		{
+	  "type": "Feature",
+	  "geometry": { "type": "Point",
+									"coordinates": [-117.788963, 33.544276]
+								},
+		"properties": { "id": 20,
+										"fullAddressString": "330 North Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.544276,
+										"longitude": -117.788963,
+										"galleryName":"Sue Greenwood Fine Art",
+										"phone": 9494940669
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.788839, 33.544223]
+								},
+		"properties": {	"id": 21,
+										"fullAddressString": "326 North Coast Highway Laguna Beach, CA 92651",
+										"latitude": 33.544223,
+										"longitude": -117.788839, 
+										"galleryName":"JoAnne Artman Gallery", 
+										"phone":9495105481
+								  }
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.782863, 33.54229]
+								},
+		"properties": { "id": 22,
+										"fullAddressString": "225 Forest Ave. Laguna Beach, CA 92651",
+										"latitude": 33.54229,
+										"longitude": -117.782863,
+										"galleryName": "Laguna College of Art & Design Gallery",
+										"phone": 9493766000
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.782863, 33.54229]
+								},
+		"properties": { "id": 23,
+										"fullAddressString": "225 Forest Ave. Laguna Beach, CA 92651",
+										"latitude": 33.54229,
+										"longitude": -117.782863,
+										"galleryName":"LCAD of Forest",
+										"phone": 9493766000
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.783193, 33.542323]
+								},
+	  "properties": {	"id": 24,
+										"fullAddressString": "210 A Forest Ave Laguna Beach, CA 92651",
+										"latitude": 33.542323,
+										"longitude":-117.783193,
+										"galleryName": "Fingerhut Gallery",
+										"phone": 9493766410
+									}
+		},
+		{
+		"type": "Feature",
+		"geometry": {	"type": "Point",
+									"coordinates": [-117.782515, 33.547373]
+								},
+		"properties":	{	"id": 25,
+										"type": "feature",
+										"fullAddressString": "606 Laguna Canyon Road Laguna Beach, CA 92652",
+										"latitude": 33.547373,
+										"longitude": -117.782515,
+										"galleryName": "Laguna Playhouse",
+										"phone": 9494972787
+									}
+		}
+]}
+
+
+
+

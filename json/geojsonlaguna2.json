@@ -1,5 +1,4 @@
 /*
-js/geojsonLaguna.js
 nicolas roldos
 7.16.2015
 artistreeapp.com
@@ -107,11 +106,12 @@ artistreeapp.com
 											}
 			} ] }
 
-			/*{
-			"fid": 008,
+			{
 			"type": "feature",
-			"geometry": 
-						{			
+			"geometry": { "type": "Point",
+											"coordinates": [ -117.781379, 33.539329]	},
+			"properties": {
+						"id":	8,
 						"fullAddressString": "611 South Coast Hwy Laguna Beach, CA 92651",
 						"latitude": 33.539329,
 						"longitude": -117.781379,

@@ -5,20 +5,20 @@
 			<meta charset="utf-8" />
 			<title>Artistree | Local art, music and events</title>
 			<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-			<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic' rel='stylesheet' type='text/css' />
-			<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+			<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic" rel="stylesheet" type="text/css" />
+			<link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css"  />
 			<link rel="stylesheet" href="css/main.css" />	
-			
+			<link rel="stylesheet" href="css/responsive.css">
 			
 		
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+			<script src="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js"></script>
 
 		</head>
-
+		<!-- "...where head meets body..." -Death Cab For Cutie -->
 		<body>
 
-			<!-- begin header here -->
+		<!-- begin header here -->
 		<header>
 			<a href="map.html" id="logo">
 				<h1>Artistree</h1>
@@ -41,10 +41,8 @@
 
 						L.mapbox.accessToken = 
 						'pk.eyJ1Ijoibmljb3dhdmVtb3VudGFpbiIsImEiOiI5NDVkNTY4NmY0NjJjNjMzNTMwNjhlOTE4MjBhZDNmYyJ9.zt8FtukBTjGlMHh59coSjA';
-						
-
+			
 						var map = L.mapbox.map('map', 'mapbox.dark').setView([33.5430, -117.7873], 14);
-
 						var featureLayer = L.mapbox.featureLayer().addTo(map);
 
 						featureLayer.setGeoJSON( { 
